@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Animated, StyleSheet, Image, Dimensions } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import logo from '../../assets/Baatr_logo_green2.png';
+import logo from '../../../assets/Baatr_logo_green2.png';
 
 const { height } = Dimensions.get('window');
 
@@ -27,7 +27,7 @@ const SplashScreen = () => {
       // After animation, navigate to the intro screen
       setTimeout(() => {
         navigation.replace('Intro'); // Navigate to the Intro screen
-      }, 800); // Small delay for effect
+      }, 400); // Small delay for effect
     });
   }, []);
 
