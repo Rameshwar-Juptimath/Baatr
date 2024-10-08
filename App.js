@@ -7,12 +7,9 @@ import IntroScreen from './src/screens/IntroScreens/IntroScreen'; // Import your
 import PhoneAuthScreen from './src/screens/Registration/PhoneAuthScreen';
 import OtpInputScreen from './src/screens/Registration/OtpInputScreen';
 import BasicInfoScreen from './src/screens/Registration/BasicInfoScreen';
-import { getApps } from 'firebase/app';
 
 const Stack = createStackNavigator();
-// if (!getApps().length) {
-//   initializeApp(firebaseConfig);
-// }
+
 
 const App = () => {
   return (
